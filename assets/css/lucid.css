@@ -1,7 +1,7 @@
 body {
   /* background-image: url('https://images.unsplash.com/photo-1614728423169-3f65fd722b7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80'); */
   background-repeat: no-repeat;
-  background-color: rgb(4, 58, 255);
+
 }
 /*  
 h1 { 
@@ -19,11 +19,10 @@ h1 {
 
 p {
   font-family: monospace;
-  color: aliceblue;
-  /* font-size: 150%;
-  padding-top: 5%;
-  padding-left: 15%;
-  padding-right: 15%; */
+  color:aliceblue;
+  /* font-weight: bold; */
+  /* padding-left: 15%; */
+  padding-right: 15%;
   /* margin-top: auto; */
   /* margin-bottom: auto; */
   /* vertical-align: middle; */
@@ -31,90 +30,20 @@ p {
   /* text-align: center; */
 }
 
-.topnav {
-  padding-top: 2%;
-  margin-left: auto;
-  margin-right: auto; 
-  width: 50%; 
 
-  overflow: hidden;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-
-.topnav a {
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 20px;
-  text-align: left;
-  margin-left: auto;
-  margin-right: auto;
- 
-}
-.topnav h1 {
-  color: aliceblue;
-  font-size: 250%;
-  margin-left: auto;
-  margin-right: auto;
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
-  text-align: center;
-  /* text-shadow: 1px 1px 50px #000000 */
-
-}
-
-.topnav a:hover {
-  color: black;
-}
-
-.topnav a.active {
-  color: antiquewhite;  
-  border-radius: 25px;
-}
-
-dt {
-  font-family: monospace;
-
-  color: black;
-  /* font-size: 150%; */
-  /* padding-top: 10%; */ 
-  /* padding-left: 15%; */
-  /* padding-right: 15%;  */
-  /* margin-top: auto; */
-  /* margin-bottom: auto; */
-  /* vertical-align: middle; */
-
-  /* text-align: center; */
-}
-
-dd {
-
-  font-family: monospace;
-  color: black;
-
-}
-
-dt{
-  font-family: monospace;
-  color: black;
-}
 
 .c {
-  padding-top: 2%;
-  background-color: rgb(4, 58, 255);
+  padding-top: 1%;
+  /* background-color:rgb(29, 63, 255); */
+  background-color: rgb(29, 29, 29);
 }
 
+
+.bold {
+  font-weight: bold;
+  color: rgb(0, 255, 0);
+}
+
+.top {
+  padding-top: 5%;
+}
