@@ -1,0 +1,84 @@
+/* Terminal styles */
+body{
+  background-color: #000;
+}
+.terminal {
+  background-color: #000;
+  color: #fff;
+  font-family: monospace;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #111;
+}
+
+.terminal-buttons {
+  display: flex;
+  margin-right: 10px;
+}
+
+.terminal-button {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.terminal-button.red {
+  background-color: #ff5f56;
+}
+
+.terminal-button.yellow {
+  background-color: #ffbd2e;
+}
+
+.terminal-button.green {
+  background-color: #27c93f;
+}
+
+.terminal-title {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.terminal-body {
+  height: 80%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.terminal-content {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.terminal-prompt {
+  color: #00ff00;
+  margin-right: 5px;
+}
+
+.terminal-command {
+  color: #fff;
+}
+
+.terminal-input {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #111;
+}
+
+.terminal-input input {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-family: monospace;
+}
+
