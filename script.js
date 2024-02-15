@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
             <div class="terminal-content">
             <p>kl university (bachelor of technology, computer science)</p>
-            <p>GPA: 9.3* (avg 6 of semesters)</p>
+            <p>GPA: 9.38* (avg 7 of semesters)</p>
             </div>
           `);
           break;
@@ -95,8 +95,8 @@ document.addEventListener('DOMContentLoaded', function() {
             | heres my licenses&certifications that i've worked on. <br> 
             </div>
             <div class="terminal-content">
-            <p>1. cloud digital leader (google) </p>
-            <p>2. automation anywhere certified advanced rpa professional (automation 360)</p>
+            <p>1. tensorflow developer certificate (tensorflow) </p>
+            <p>2. cloud digital leader (google) </p>
             </div>
           `);
           break;
